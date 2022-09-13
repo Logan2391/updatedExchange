@@ -1,0 +1,163 @@
+    :root {
+        --box-colors: #394551;
+        --btn-colors: #e14129;
+        --text-color: white;
+        --address-color: lightgray;
+    }
+    
+    /* center aligns the text in the body of the page */
+    body {
+        text-align: center;
+        align-content: center;
+    }
+
+    h1 {
+        font-weight: bold;
+        font-size: 25px;
+        text-decoration: underline;
+        color:white;
+    }    
+    
+    /* sizing and font for Currency Converter title */
+    h3 {
+        font-weight: bold;
+        font-size: 35px;
+        text-decoration: underline;
+        color:black;
+    }
+    
+    /* background image and sizing */
+
+    .custHtml {
+        background-image: url("./images/resolution.jpg");
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    /* sizing for search box */
+    .custbox {
+        width:20vw;
+    }
+    /* search box sizing */
+    .searchBox {
+        margin-top: 20px;
+    }    
+    /* sizing and color for the fas fa-arrow icon in the search bar */
+    .custFav {
+        padding-top: 7px;
+        font-size: 25px;
+        color: grey;
+    }
+    
+    /* sizing and coloring for the submit buttons */
+    .submitBtn {
+        background-color: var(--btn-colors); 
+        border-style: none;
+        color: var(--text-color);
+        width: 74px;
+    }
+    /* cursor for submit button */
+    .submitBtn:hover {
+        cursor: pointer;
+    }
+
+    /* sizing and coloring of the Local Exchange Locations boxes      */
+   
+    .custTitle {
+        background-color: white;
+        margin-left: 35%;
+        margin-right: 35%;
+        border-radius: 5px;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 35px;
+        text-decoration: underline;
+        color:black;
+    }
+
+    /* currency in put box sizing */
+    .custInput {
+        border-style: solid;
+        width:10vw;
+    }
+       
+
+    /* Padding for Local Exchange Locations boxes */
+    .custSec {
+        padding-bottom: 0px;
+    }
+    /* sizing for rates container */
+    .custRatesContain {
+        width: 19vw;
+    }
+    
+    .notification {
+        color:var(--text-color); 
+        background-color: white; 
+    }
+    
+    /* coloring for the title */
+    .title {
+        color:black;
+    } 
+
+    /* coloring for the main navigation bar */
+    .navbar {
+        background-color: var(--box-colors);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }    
+
+    
+    
+    /* clear buttons sizing and coloring */
+    .clearBtn { 
+        background-color: var(--btn-colors);
+        border-style: none;
+        border-radius: 4px;
+        color: var(--text-color);
+        width: 74px; 
+        padding: 10px;
+        font-size: 1rem;
+    }
+    
+    /* clear button cursor */
+    .clearBtn:hover {
+        cursor: pointer;
+    }
+
+    .custTitle {
+        margin-left: 35%;
+        margin-right: 35%;
+        border-radius: 5px;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 35px;
+        text-decoration: underline;
+        color:var(--text-color);
+    }
+
+   .boxColor {
+    background-color: var(--box-colors);
+   }
+
+   .textColor {
+    color:  var(--text-color);
+   }
+
+   .addressColor {
+    color:  var(--address-color);
+   }
+   
+   .error {
+    font-size: 18px;
+    background-color:rgba(255, 255, 255, 0.5);
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 5px;
+    color:rgb(199, 3, 3);
+    padding: 10px;
+   }
